@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Buttons from "../buttons/Buttons";
+import Buttons from "../Buttons/Buttons";
 import "./Search.css";
 
 function Search({ updateIngredients, filterIngredients, toggleView }) {
