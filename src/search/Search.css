@@ -1,0 +1,19 @@
+.search {
+    display: flex;
+    height: 50px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.field {
+    display: flex;
+    justify-content: center;
+}
+
+.food-input {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+    font-size: large;
+}

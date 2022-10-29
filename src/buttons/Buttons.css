@@ -1,0 +1,14 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button {
+    border: 1px solid black;
+    width: 122px;
+    border-radius: 2px;
+    cursor: pointer;
+}
