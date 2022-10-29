@@ -1,12 +1,4 @@
----
-title: Vite React
-description: Example Vite app that is configured with React
-tags:
-    - vite
-    - react
----
-
-# Vite + React
+# Recipe Finder
 
 This example utilises vite for static site generation
 
