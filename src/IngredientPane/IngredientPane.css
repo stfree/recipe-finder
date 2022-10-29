@@ -3,7 +3,6 @@
     flex-direction: column;
     border: 1px solid black;
     justify-content: space-between;
-    /* height: 35px; */
     padding: 5px;
     padding-top: 10px;
 }
