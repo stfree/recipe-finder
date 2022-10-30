@@ -33,12 +33,12 @@ function IngredientPane({ name, removeIngredient, sendSelection }) {
             <div className="ingredient-buttons">
                 <div className="left">
                     <button
-                        className="gg-shape-circle left-item"
+                        className="gg-shape-circle left-item ingredient-select"
                         onClick={() =>
                             dispatch({ type: "SELECT", sendSelection, name })
                         }
                     ></button>
-                    <div className="left-item">{name}</div>
+                    <div className="left-item toggle-notes">{name}</div>
                     <button
                         className="gg-chevron-double-down left-item"
                         onClick={() => dispatch({ type: "TOGGLE" })}

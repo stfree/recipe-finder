@@ -1,1 +1,12 @@
+.ingredient-view {
+    overflow-y: scroll;
+    height: 397px;
+}
 
+.ingredient-view::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+.ingredient-view {
+    overflow: -moz-scrollbars-none;
+}

@@ -1,14 +1,16 @@
 .search {
     display: flex;
-    height: 50px;
+    height: 90px;
     align-content: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 .field {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .food-input {

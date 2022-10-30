@@ -181,7 +181,6 @@ function RecipeArea({ ingredients }) {
         <>
             <div className="recipe-area">
                 {data.map((recipe) => {
-                    console.log("dfasd", recipe.missedIngredients);
                     return (
                         <RecipePane
                             key={recipe.id}

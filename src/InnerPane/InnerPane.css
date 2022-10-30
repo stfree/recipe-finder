@@ -9,4 +9,13 @@ textarea.notes {
     height: 100px;
     margin-top: 5px;
     margin-left: 10px;
+    border-radius: 5px;
+}
+
+.group {
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
 }

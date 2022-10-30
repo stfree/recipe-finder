@@ -12,6 +12,7 @@ function InnerPane() {
             <input
                 placeholder="group"
                 value={group}
+                className="group"
                 onChange={updateGroup}
             ></input>
         </div>

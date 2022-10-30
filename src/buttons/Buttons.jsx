@@ -4,14 +4,20 @@ import "./Buttons.css";
 function Buttons({ toggleView, updateIngredients, filterIngredients }) {
     return (
         <div className="buttons">
-            <div className="button" onClick={updateIngredients}>
-                Add
-            </div>
-            <div className="button" onClick={filterIngredients}>
-                Search
-            </div>
-            <button className="button" onClick={toggleView}>
-                Get Recipes
+            <button className="pushable" onClick={updateIngredients}>
+                <span class="shadow"></span>
+                <span class="edge"></span>
+                <span className="front">Add</span>
+            </button>
+            <button className="pushable" onClick={filterIngredients}>
+                <span class="shadow"></span>
+                <span class="edge"></span>
+                <span className="front">Search</span>
+            </button>
+            <button className="pushable" onClick={toggleView}>
+                <span class="shadow"></span>
+                <span class="edge"></span>
+                <span className="front">Get Recipes</span>
             </button>
         </div>
     );
