@@ -1,6 +1,27 @@
 .ingredient-view {
     overflow-y: scroll;
-    height: 397px;
+    height: 400px;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    background: radial-gradient(
+                at 18% 99%,
+                rgb(223, 229, 113) 0px,
+                transparent 50%
+            )
+            repeat scroll 0% 0%,
+        radial-gradient(at 97% 8%, rgb(118, 249, 173) 0px, transparent 50%)
+            repeat scroll 0% 0%,
+        radial-gradient(at 79% 82%, rgb(116, 223, 175) 0px, transparent 50%)
+            repeat scroll 0% 0%,
+        radial-gradient(at 96% 10%, rgb(127, 242, 252) 0px, transparent 50%)
+            repeat scroll 0% 0%,
+        radial-gradient(at 42% 20%, rgb(116, 240, 251) 0px, transparent 50%)
+            repeat scroll 0% 0%,
+        radial-gradient(at 4% 49%, rgb(244, 253, 193) 0px, transparent 50%)
+            repeat scroll 0% 0%,
+        rgba(0, 0, 0, 0)
+            radial-gradient(at 57% 33%, rgb(145, 222, 218) 0px, #a299ff 50%)
+            repeat scroll 0% 0%;
 }
 
 .ingredient-view::-webkit-scrollbar {
