@@ -19,3 +19,8 @@
     border-radius: 4px;
     font-size: large;
 }
+
+.search-field {
+    font-family: "Signika", sans-serif;
+    font-size: 15px;
+}

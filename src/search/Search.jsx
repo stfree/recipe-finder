@@ -26,6 +26,7 @@ function Search({ updateIngredients, filterIngredients, toggleView }) {
             <div className="field">
                 <div className="food-input">
                     <input
+                        className="search-field"
                         type="text"
                         placeholder="...add ingredient"
                         value={value}

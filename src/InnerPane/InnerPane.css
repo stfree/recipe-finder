@@ -10,6 +10,8 @@ textarea.notes {
     margin-top: 5px;
     margin-left: 10px;
     border-radius: 5px;
+    font-family: "Signika", sans-serif;
+    font-size: 15px;
 }
 
 .group {
@@ -18,4 +20,6 @@ textarea.notes {
     margin-top: 5px;
     border-radius: 5px;
     border: 1px solid gray;
+    font-family: "Signika", sans-serif;
+    font-size: 15px;
 }
