@@ -8,6 +8,8 @@ function Search({ updateIngredients, filterIngredients, toggleView }) {
     const updateValue = (event) => {
         let newIngredient = event.target.value;
         setValue(newIngredient);
+        filterIngredients(value);
+
     };
 
     const sendNewIngredient = () => {
@@ -21,6 +23,16 @@ function Search({ updateIngredients, filterIngredients, toggleView }) {
         filterIngredients(value);
         setValue("");
     };
+
+
+    const enterValue = (event) => {
+        if (event.key === "Enter" && value.length !== 0) {
+                updateIngredients(value);
+                setValue("");
+        }
+    };
+
+
     return (
         <div className="search">
             <div className="field">
@@ -31,6 +43,7 @@ function Search({ updateIngredients, filterIngredients, toggleView }) {
                         placeholder="...add ingredient"
                         value={value}
                         onChange={updateValue}
+                        onKeyPress={enterValue}
                     ></input>
                 </div>
             </div>
