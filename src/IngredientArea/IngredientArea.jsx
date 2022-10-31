@@ -5,9 +5,9 @@ import IngredientPane from "../IngredientPane/IngredientPane";
 function IngredientArea({ ingredients, removeIngredient, sendSelection }) {
     return (
         <div className="ingredient-view">
-            {ingredients.map((item) => (
+            {ingredients.map((item, index) => (
                 <IngredientPane
-                    key={item}
+                    key={item+index}
                     name={item}
                     removeIngredient={removeIngredient}
                     sendSelection={sendSelection}

@@ -42,8 +42,8 @@ function Search({ updateIngredients, filterIngredients, toggleView }) {
                         type="text"
                         placeholder="...add ingredient"
                         value={value}
-                        onChange={updateValue}
                         onKeyPress={enterValue}
+                        onChange={updateValue}
                     ></input>
                 </div>
             </div>
