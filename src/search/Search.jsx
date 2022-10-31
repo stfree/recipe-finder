@@ -29,6 +29,8 @@ function Search({ updateIngredients, filterIngredients, toggleView }) {
         if (event.key === "Enter" && value.length !== 0) {
                 updateIngredients(value);
                 setValue("");
+                filterIngredients("");
+
         }
     };
 
@@ -42,8 +44,9 @@ function Search({ updateIngredients, filterIngredients, toggleView }) {
                         type="text"
                         placeholder="...add ingredient"
                         value={value}
-                        onKeyPress={enterValue}
                         onChange={updateValue}
+                        onKeyPress={enterValue}
+
                     ></input>
                 </div>
             </div>
