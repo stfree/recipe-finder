@@ -17,8 +17,10 @@ export function stateReducer(state, actions) {
             return {
                 ...state,
                 searched: state.ingredients.filter(
-                    (ingredient) => ingredient.indexOf(actions.term) !== -1
-                ),
+                         (ingredient) => ingredient.indexOf(actions.term) !== -1
+                 ).concat(state.ingredients.filter(
+                         (ingredient) => ingredient.indexOf(actions.term) === -1
+                 )),
             };
         case "REMOVE_INGREDIENT":
             return {
