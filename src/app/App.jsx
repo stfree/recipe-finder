@@ -46,8 +46,13 @@ function App() {
             {state.isIngredientView}
             <div className="app">
                 <Search
-                    updateIngredients={(newIngredient) =>
-                        dispatch({ type: "UPDATE_INGREDIENTS", newIngredient })
+                    updateIngredients={(newIngredient) => {
+                        if (state.ingredients.indexOf(newIngredient) === -1) {
+                            return dispatch({ type: "UPDATE_INGREDIENTS", newIngredient })
+                        } else {
+                            return alert("no can do")
+                        }
+                      }
                     }
                     filterIngredients={(term) =>
                         dispatch({ type: "FILTER_INGREDIENTS", term })

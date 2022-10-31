@@ -30,7 +30,6 @@ function Search({ updateIngredients, filterIngredients, toggleView }) {
                 updateIngredients(value);
                 setValue("");
                 filterIngredients("");
-
         }
     };
 
